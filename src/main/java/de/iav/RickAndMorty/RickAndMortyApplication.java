@@ -1,13 +1,13 @@
-package de.iav.rickand;
+package de.iav.RickAndMorty;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RickAndApplication {
+public class RickAndMortyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RickAndApplication.class, args);
+        SpringApplication.run(RickAndMortyApplication.class, args);
     }
 
 }

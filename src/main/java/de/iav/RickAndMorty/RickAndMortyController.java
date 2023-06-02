@@ -1,4 +1,4 @@
-package de.iav.rickand;
+package de.iav.RickAndMorty;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,9 +17,14 @@ public class RickAndMortyController {
 
 
     @GetMapping("/{id}")
-   public RickAndMortyCharacter getSingleCharacter(@PathVariable String id) {
+    public RickAndMortyCharacter getSingleCharacter(@PathVariable String id) {
         return rickAndMortyService.getRickAndMortyCharacter(id);
     }
+
+  //  @GetMapping("/")
+   // public RickAndMortyCharacter getAllCharacter() {
+     //   return rickAndMortyService.getRickAndMortyCharacter(String id);
+
 }
 
 

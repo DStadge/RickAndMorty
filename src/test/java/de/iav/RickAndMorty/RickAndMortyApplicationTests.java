@@ -1,10 +1,10 @@
-package de.iav.rickand;
+package de.iav.RickAndMorty;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RickAndApplicationTests {
+class RickAndMortyApplicationTests {
 
     @Test
     void contextLoads() {

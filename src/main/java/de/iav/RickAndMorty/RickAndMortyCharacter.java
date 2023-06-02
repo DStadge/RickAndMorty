@@ -1,4 +1,4 @@
-package de.iav.rickand;
+package de.iav.RickAndMorty;
 
 public record RickAndMortyCharacter(
         String id,
