@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/character")
 public class RickAndMortyController {
@@ -21,9 +23,9 @@ public class RickAndMortyController {
         return rickAndMortyService.getRickAndMortyCharacter(id);
     }
 
-  //  @GetMapping("/")
-   // public RickAndMortyCharacter getAllCharacter() {
-     //   return rickAndMortyService.getRickAndMortyCharacter(String id);
+    @GetMapping()
+   public List<RickAndMortyCharacter> getAllCharacter() {
+     return this.rickAndMortyService.getRickAndMortyCharacter()
 
 }
 
